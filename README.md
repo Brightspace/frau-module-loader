@@ -7,15 +7,15 @@ frau-module-loader is a utility to allow free-range app developers to define the
 var loader = require('frau-module-loader');
 
 module.exports = function(parent, options) {
-  var config = {
-    paths: {
-      'superagent': 'https://s.brightspace.com/lib/superagent/1.2.0/superagent.min'
-    }
-  };
-  
-  loader(['superagent'], config, function() {
-    // Your app code here...
-  });
+	var config = {
+		paths: {
+			'superagent': 'https://s.brightspace.com/lib/superagent/1.2.0/superagent.min'
+		}
+	};
+
+	loader(['superagent'], config, function() {
+		// Your app code here...
+	});
 };
 ```
 
@@ -27,3 +27,7 @@ module.exports = function(parent, options) {
 ## Contributing
 
 Contributions are welcome, please submit a pull request!
+
+### Code Style
+
+This repository is configured with EditorConfig rules and contributions should make use of them.
