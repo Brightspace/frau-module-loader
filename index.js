@@ -1,6 +1,6 @@
 var requirejs = require('requirejs');
 
-module.exports = function(config, cb) {
+module.exports = function(deps, config, cb) {
     requirejs.config(config);
-    requirejs(Object.keys(config.paths), cb);
+    requirejs(deps, cb);
 };
