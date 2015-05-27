@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "browserify-shim": {
-    "requirejs": "global:requirejs"
+    "requirejs": "global:requirejs",
+    "define": "global:define"
   },
   "browserify": {
     "transform": [
