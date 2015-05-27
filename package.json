@@ -1,0 +1,17 @@
+{
+  "name": "frau-module-loader",
+  "version": "0.0.1",
+  "private": true,
+  "browserify-shim": {
+    "requirejs": "global:requirejs"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "dependencies": {
+    "browserify": "^10.2.1",
+    "browserify-shim": "^3.8.7"
+  }
+}
