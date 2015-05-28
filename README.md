@@ -1,4 +1,6 @@
 # frau-module-loader
+[![NPM version][npm-image]][npm-url]
+[![Build status][ci-image]][ci-url]
 
 frau-module-loader is a utility to allow free-range app developers to define their external [`browserify`](http://browserify.org/) dependencies without having to set up [`browserify-shim`](https://github.com/thlorenz/browserify-shim).
 
@@ -31,3 +33,8 @@ Contributions are welcome, please submit a pull request!
 ### Code Style
 
 This repository is configured with EditorConfig rules and contributions should make use of them.
+
+[npm-url]: https://www.npmjs.com/package/frau-module-loader
+[npm-image]: https://img.shields.io/npm/v/frau-module-loader.svg
+[ci-image]: https://travis-ci.org/Brightspace/frau-module-loader.svg?branch=master
+[ci-url]: https://travis-ci.org/Brightspace/frau-module-loader
