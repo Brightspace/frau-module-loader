@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.12'
+- '0.10'
+deploy:
+  provider: npm
+  email: d2ltravisdeploy@d2l.com
+  api_key:
+    secure: dd02nhe7wYSqeL7GCjohDWp4Aj8HGCPWQJr7UoK5ltFh/ZVzh7gPP0gzYtp4K21DSw+GEX2+Z9IuJiNSV6DP2ek9qXeWfqFaXP5rRlnzxlkim+SxIO7ma+0DQ3ULlpgG3ioUlyRWEOCBvNRn8DHI4BxuW4wqxjbgAB3klHQYYCscr47GXKEGlWlaSAsPg+7ioD4S+N7BPnTfaGRJFHzdECriqsMFlHme/C60/oiQZfWygNWmQC5HR85P6cyuiLuYlAu92S7hjH+cRXLTlDGW2OWxj6ZCPDEykzmolALYK/PLGONIlt+TvM2NsyUX7lv6VZnYIZSTYGtAs1VbW+j2otROXL+x6VcvkbLS8eyk49emODNmW77Z4EZxUo/Qkaw0/TVSqBacwtjfsK/JuMn8I43IMy5ha/AYEiW5lOQmZwJkpDXZb6z14pHVzD85Ha6oGtkh+QWHgt63bo+FOm4sqfpekPQ2UPtjOoyDvgePugYQYF4yNjkZs5RE68nu5t5yazL/y36k1DAt02zL/eEBhq4tOIgV28Evo0C0FvOnv8zoU7YNvH7KkHUMmy0sfr2pN2tIy0X8zhupooNpoBH3WWrGBLKaAruyFF9GvRxdaao8aVFXVk8C2Szs9pJwCAa3CDmvsoEakq7YigI3Z4040ZgR4w3tsC7bGvHmQxCvwos=
+  on:
+    tags: true
+    repo: Brightspace/frau-module-loader
