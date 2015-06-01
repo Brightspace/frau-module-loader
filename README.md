@@ -26,6 +26,15 @@ module.exports = function(parent, options) {
 * `config`: The [requirejs config](http://requirejs.org/docs/api.html) that specifies shims, paths, etc. for dependencies
 * `callback`: The callback to start your app once requirejs has finished setup
 
+The library also exposes the [global define function](http://requirejs.org/docs/api.html#define) so it can be used to define your own modules:
+```javascript
+var loader = require('frau-module-loader');
+
+loader.define('react-router-shim', ['react'], function(React) {
+	window.React = React;
+});
+```
+
 ## Contributing
 
 Contributions are welcome, please submit a pull request!
