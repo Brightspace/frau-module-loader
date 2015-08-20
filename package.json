@@ -1,6 +1,6 @@
 {
   "name": "frau-module-loader",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A utility to allow free-range app developers to define external browserify dependencies without having to set up browserify-shim.",
   "main": "index.js",
   "repository": "Brightspace/frau-module-loader",
