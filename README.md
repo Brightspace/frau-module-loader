@@ -3,7 +3,7 @@
 [![Build status][ci-image]][ci-url]
 [![Dependency Status][dependencies-image]][dependencies-url]
 
-A utility to allow free-range app developers to define their external [`browserify`](http://browserify.org/) dependencies without having to set up [`browserify-shim`](https://github.com/thlorenz/browserify-shim).
+A utility to allow free-range app developers to define external [`browserify`](http://browserify.org/) dependencies without having to set up [`browserify-shim`](https://github.com/thlorenz/browserify-shim).
 
 ## Usage
 ```javascript
