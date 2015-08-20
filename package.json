@@ -1,6 +1,6 @@
 {
   "name": "frau-module-loader",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Utility to allow free-range apps to require external modules in browserify without needing to set up a shim",
   "main": "index.js",
   "repository": "Brightspace/frau-module-loader",
@@ -13,10 +13,10 @@
   "author": "D2L Corporation",
   "license": "Apache-2.0",
   "dependencies": {
-    "browserify-shim": "^3.8.7"
+    "browserify-shim": "^3.8.10"
   },
   "peerDependencies": {
-    "browserify": "^10.0.0"
+    "browserify": "^11.0.1"
   },
   "scripts": {
     "test": "exit 0"
