@@ -2,3 +2,5 @@
 .jshintrc
 .editorconfig
 .gitignore
+.npmignore
+.travis.yml
