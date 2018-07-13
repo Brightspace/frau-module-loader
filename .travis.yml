@@ -1,12 +1,12 @@
 language: node_js
 node_js:
-- '0.12'
-- '0.10'
+  - '0.12'
+  - '0.10'
 deploy:
-  provider: npm
-  email: d2ltravisdeploy@d2l.com
-  api_key:
-    secure: o8pL8H1uUlkEjlEGzPCDwYYj6MDJFEN6aXR9tWGZb4wWQHlSK5oH56788YoH8AoIDEAwAkWk+Xv1zOVECN4aQx52adiODWwGlrJJUGKrvliZv6s/848PgSSiNzwsMgTybupWKoYV0AHaRE6jXt9jxtGnIpAZ6EkByrPx/hboGJqy+CAQdjRBKMWXZW/z8xtMLpCws6k8g4DlMSDLOHI9n44mx5yNglu3GsoiQ8h3KFztaYOafycPA6LRRGcVYV7AGRyhspKPGPlRePNGiGnbstWFcIP6pGH0uSa7Nyc/UWWp0pJEoEy/ypo2gnf9OzTqnkxClDeS9OOKl1cZN2D/7H2HA04Lm5GNbnU8+qsVukufbIcEtxtaSy+Sll9jVYe25REByyBdcjsaNoB9GCWAf4RD3no3OJ8xY4nJqJeSvOpW/P4i1u2NSIysioP3Q/trC9JMDlVgI7G4Xb2seUyCmL7ym6xHWplXR2k1ajSaW9hOOb+T6ZhuiGt2TQjZeZNXwuYbrJbdWrAZ7kr6uyRxsHhH5XvfC6YXeR5YLe4y7cGV3LD1SMp1eWxu5h1T4mZ4NgiaY7ivIqNBsTuqXUyYa5ZHrFft8OEIHAdpgURTdoDXEn7RgE7ZxKfJkBw/IxAU0p4wn7h9CDT5foODUxwRWf9uQZxQVu0F7RIIVjXhTJk=
+  provider: script
+  script: echo "npm credentials were revoked on 2018-07-12. We regenerated many
+    credentials, but this repository had no changes in at least 18 months and
+    was skipped. Reconfigure npm deployments. -omsmith"; exit 1
   on:
     tags: true
     repo: Brightspace/frau-module-loader
